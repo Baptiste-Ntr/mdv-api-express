@@ -1,0 +1,124 @@
+{
+    "drivers": [
+        {
+            "firstname": "Charles",
+            "lastname": "Leclerc",
+            "team": "Ferrari",
+            "number": 16
+        },
+        {
+            "firstname": "Carlos",
+            "lastname": "Sainz",
+            "team": "Ferrari",
+            "number": 55
+        },
+        {
+            "firstname": "Lewis",
+            "lastname": "Hamilton",
+            "team": "Mercedes",
+            "number": 44
+        },
+        {
+            "firstname": "George",
+            "lastname": "Russel",
+            "team": "Mercedes",
+            "number": 63
+        },
+        {
+            "firstname": "Max",
+            "lastname": "Verstappen",
+            "team": "Red Bull Racing",
+            "number": 33
+        },
+        {
+            "firstname": "Sergio",
+            "lastname": "Perez",
+            "team": "Red Bull Racing",
+            "number": 11
+        },
+        {
+            "firstname": "Esteban",
+            "lastname": "Ocon",
+            "team": "Alpine",
+            "number": 31
+        },
+        {
+            "firstname": "Pierre",
+            "lastname": "Gasly",
+            "team": "Alpine",
+            "number": 10
+        },
+        {
+            "firstname": "Lando",
+            "lastname": "Norris",
+            "team": "McLaren",
+            "number": 4
+        },
+        {
+            "firstname": "Oscar",
+            "lastname": "Piastri",
+            "team": "McLaren",
+            "number": 81
+        },
+        {
+            "firstname": "Valterri",
+            "lastname": "Bottas",
+            "team": "Alpha Romeo",
+            "number": 77
+        },
+        {
+            "firstname": "Guanyu",
+            "lastname": "Zhou",
+            "team": "Alpha Romeo",
+            "number": 3
+        },
+        {
+            "firstname": "Yuki",
+            "lastname": "Tsunoda",
+            "team": "Alpha Tauri",
+            "number": 38
+        },
+        {
+            "firstname": "Daniel",
+            "lastname": "Ricciardo",
+            "team": "Alpha Tauri",
+            "number": 3
+        },
+        {
+            "firstname": "Fernando",
+            "lastname": "Alonso",
+            "team": "Aston Martin",
+            "number": 14
+        },
+        {
+            "firstname": "Lance",
+            "lastname": "Stroll",
+            "team": "Aston Martin",
+            "number": 18
+        },
+        {
+            "firstname": "Alexander",
+            "lastname": "Albon",
+            "team": "Williams",
+            "number": 23
+        },
+        {
+            "firstname": "Logan",
+            "lastname": "Sargeant",
+            "team": "Williams",
+            "number": 2
+        },
+        {
+            "firstname": "Kevin",
+            "lastname": "Magnussen",
+            "team": "Hass",
+            "number": 20
+        },
+        {
+            "firstname": "Nico",
+            "lastname": "Hulkenberg",
+            "team": "Hass",
+            "number": 27
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "teams": [
+        {
+            "name": "Mercedes",
+            "country": "Germany"
+        },
+        {
+            "name": "Red Bull Racing",
+            "country": "Austria"
+        },
+        {
+            "name": "Ferrari",
+            "country": "Italy"
+        },
+        {
+            "name": "McLaren",
+            "country": "United Kingdom"
+        },
+        {
+            "name": "Alpine",
+            "country": "France"
+        },
+        {
+            "name": "AlphaTauri",
+            "country": "Italy"
+        },
+        {
+            "name": "Aston Martin",
+            "country": "United Kingdom"
+        },
+        {
+            "name": "Alfa Romeo",
+            "country": "Switzerland"
+        },
+        {
+            "name": "Haas",
+            "country": "United States"
+        },
+        {
+            "name": "Williams",
+            "country": "United Kingdom"
+        }
+    ]
+}
