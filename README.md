@@ -1,36 +1,67 @@
-Cette api a pour but d'avoir les infos des pilotes de Formule 1 ainsi que de leurs écuries
+# API Documentation
 
-DOC : 
+Cette API a pour but d'avoir les infos des pilotes de Formule 1 ainsi que de leurs écuries.
 
-# GET
+## Routes
 
-## /driver
+### GET /driver
 
--> drivers : [  
-    {  
-        'firstname' : String,  
-        'lastname' : String,  
-        'team' : String  
-    }  
-]  
+This route return a list of all drivers
 
-## /team
+**Réponse attendue :**
 
--> team : [  
-    {  
-        'name' : String,  
-        'country' : String  
-    }  
-]  
+```json
+{
+    "drivers": [
+        {
+            "firstname": "String",
+            "lastname": "String",
+            "team": "String"
+        }
+    ]
+}
+```
 
-## /drivernumber/:driverName
+### GET /team
 
--> "permanentNumber": String
+This route return a list of all teams
 
-## /driverinfo/:driverName
+**Response :**
 
--> "permanentNumber": String,  
-    "driverLastName": String,  
-    "driverFirstName": String,  
-    "driverTeam": String  
+```json
+{
+    "team": [
+        {
+            "name": "String",
+            "country": "String"
+        }
+    ]
+}
+```
 
+### GET /drivernumber/:driverName
+
+This route return the specific number of a driver
+
+**Response :**
+
+```json
+{
+    "permanentNumber": "String"
+}
+```
+
+### GET /driverinfo/:driverName
+
+This route return specifics info on a driver
+
+**Response :**
+
+```json
+{
+    "permanentNumber": "String",
+    "driverLastName": "String",
+    "driverFirstName": "String",
+    "driverTeam": "String"
+}
+```
