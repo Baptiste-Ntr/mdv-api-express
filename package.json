@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/Baptiste-Ntr/mdv-api-express#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "@types/node": "^20.10.7"
