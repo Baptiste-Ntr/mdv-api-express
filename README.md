@@ -1,3 +1,15 @@
+# Install Project
+
+```node
+npm i
+```
+
+# Launch Project
+
+```node
+node app.ts
+```
+
 # API Documentation
 
 Cette API a pour but d'avoir les infos des pilotes de Formule 1 ainsi que de leurs écuries.
