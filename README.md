@@ -6,22 +6,22 @@ DOC :
 
 ## /driver
 
--> drivers : [
-    {
-        'firstname' : String,
-        'lastname' : String,
-        'team' : String
-    }
-]
+-> drivers : [  
+    {  
+        'firstname' : String,  
+        'lastname' : String,  
+        'team' : String  
+    }  
+]  
 
 ## /team
 
--> team : [
-    {
-        'name' : String,
-        'country' : String
-    }
-]
+-> team : [  
+    {  
+        'name' : String,  
+        'country' : String  
+    }  
+]  
 
 ## /drivernumber/:driverName
 
@@ -29,8 +29,8 @@ DOC :
 
 ## /driverinfo/:driverName
 
--> "permanentNumber": String,
-    "driverLastName": String,
-    "driverFirstName": String,
-    "driverTeam": String
+-> "permanentNumber": String,  
+    "driverLastName": String,  
+    "driverFirstName": String,  
+    "driverTeam": String  
 
