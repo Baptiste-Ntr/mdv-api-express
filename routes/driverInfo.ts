@@ -5,7 +5,8 @@ module.exports = function (app) {
     const path = require('path')
 
     app.get('/driverinfo/:driverName', (req, res) => {
-        const driverName = req.params.driverName
+        let driverName = req.params.driverName;
+        driverName = driverName.charAt(0).toUpperCase() + driverName.slice(1);
 
         fs.readFile(path.join(__dirname, '..', 'data', 'driver.json'), 'utf8', (error, data) => {
             if (error) {
